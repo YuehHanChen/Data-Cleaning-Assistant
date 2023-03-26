@@ -2,7 +2,7 @@
 
 Web App Link: https://datacleaningassistance1.herokuapp.com/
 
-The Data Cleaning Assistant is a web application that suggests data cleaning tasks for a given dataset. It uses OpenAI's GPT 3 model to generate a list of necessary data cleaning tasks before feeding the dataset to a machine learning model.
+The Data Cleaning Assistant is a web application that suggests data cleaning tasks for a given dataset. It uses OpenAI's GPT 3.5 model to generate a list of necessary data cleaning tasks before feeding the dataset to a machine learning model.
 
 ## Getting Started
 To get started, simply enter your OpenAI API key and upload a CSV file containing the dataset. The application will then generate a list of data cleaning tasks, along with Python/pandas code for each task.
