@@ -4,6 +4,13 @@ Web App Link: https://datacleaningassistance1.herokuapp.com/
 
 The Data Cleaning Assistant is a web application that suggests data cleaning tasks for a given dataset. It uses OpenAI's GPT 3.5 model to generate a list of necessary data cleaning tasks before feeding the dataset to a machine learning model.
 
+## Project Description
+1. Developed a web application that uses OpenAI's GPT-3.5 model to suggest data cleaning tasks and generate Python/pandas code for a given dataset, significantly reducing time spent on data preprocessing.
+2. Integrated Flask, a lightweight web framework, for building and deploying the application, allowing users to upload CSV files and receive data cleaning suggestions.
+3. Utilized the OpenAI API to interact with the GPT-3.5 model, providing concise prompts to generate relevant data cleaning tasks and code snippets.
+4. Deployed the application on Heroku, making it accessible to a wider audience for testing and feedback.
+
+
 ## Getting Started
 To get started, simply enter your OpenAI API key and upload a CSV file containing the dataset. The application will then generate a list of data cleaning tasks, along with Python/pandas code for each task.
 
@@ -26,3 +33,6 @@ Do not upload any sensitive or confidential data, as OpenAI might use it to trai
 
 ## Creator
 This application was created by John Chen. If you have any questions or feedback, please email john0922ucb@berkeley.edu.
+
+## Technologies Used
+Python, Flask, Pandas, OpenAI GPT-3.5, HTML, CSS, JavaScript, Heroku
